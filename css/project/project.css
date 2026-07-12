@@ -1,0 +1,27 @@
+.project {
+  position: relative;
+}
+
+.project__text {
+  position: absolute;
+  right: 75px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 285px;
+}
+
+.project__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.project__description {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--tertiary-color);
+}
