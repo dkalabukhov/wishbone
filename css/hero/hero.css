@@ -8,6 +8,10 @@
   flex: 1;
 }
 
+.hero__image {
+  height: 100%;
+}
+
 .hero__text {
   padding: 100px;
   align-items: center;

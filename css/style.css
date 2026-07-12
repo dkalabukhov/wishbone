@@ -6,6 +6,7 @@
 @import url('./title/title.css');
 @import url('./team-member/team-member.css');
 @import url('./project/project.css');
+@import url('./our-process/our-process.css');
 
 *,
 *::before,
@@ -51,7 +52,7 @@ body {
   list-style: none;
 }
 
-.paddingV-100 {
+.paddingY-100 {
   padding: 100px 0;
 }
 
