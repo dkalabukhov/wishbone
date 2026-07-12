@@ -1,0 +1,29 @@
+.our-firm {
+  background-color: var(--white-color);
+}
+
+.our-firm__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 10px;
+  gap: 100px;
+  padding-bottom: 28px;
+}
+
+.our-firm__text {
+  max-width: 490px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.our-firm__description {
+  margin: 0;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.our-firm__team-member {
+  margin-top: 8px;
+}

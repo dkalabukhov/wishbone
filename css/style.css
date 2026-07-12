@@ -2,6 +2,9 @@
 @import url('./header/header.css');
 @import url('./nav/nav.css');
 @import url('./hero/hero.css');
+@import url('./our-firm/our-firm.css');
+@import url('./title/title.css');
+@import url('./team-member/team-member.css');
 
 *,
 *::before,
@@ -37,10 +40,18 @@ body {
   max-width: var(--container-width);
 }
 
+.container_small {
+  max-width: var(--container-small-width);
+}
+
 .list-reset {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.paddingV-100 {
+  padding: 100px 0;
 }
 
 :root {
@@ -49,6 +60,8 @@ body {
   --tertiary-color: #645c55;
   --white-color: #ffffff;
   --hero-bg: #ece7e4;
+  --team-member-image-border-color: #cec4bc;
 
   --container-width: 1198px;
+  --container-small-width: 798px;
 }

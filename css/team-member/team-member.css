@@ -1,0 +1,24 @@
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-member__image {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 3px solid var(--team-member-image-border-color);
+}
+
+.team-member__name {
+  font-size: 17px;
+  line-height: 1.53;
+  color: var(--primary-color);
+}
+
+.team-member__position {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--tertiary-color);
+}
