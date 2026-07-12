@@ -1,3 +1,7 @@
+@import url('./btn/btn.css');
+@import url('./header/header.css');
+@import url('./nav/nav.css');
+
 *,
 *::before,
 *::after {
@@ -24,4 +28,21 @@ img {
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1198px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --primary-color: #1b1a1a;
+  --white-color: #ffffff;
 }

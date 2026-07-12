@@ -1,0 +1,19 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.btn_dark {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
