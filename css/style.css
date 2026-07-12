@@ -1,6 +1,7 @@
 @import url('./btn/btn.css');
 @import url('./header/header.css');
 @import url('./nav/nav.css');
+@import url('./hero/hero.css');
 
 *,
 *::before,
@@ -44,5 +45,8 @@ body {
 
 :root {
   --primary-color: #1b1a1a;
+  --secondary-color: #403e3b;
+  --tertiary-color: #645c55;
   --white-color: #ffffff;
+  --hero-bg: #ece7e4;
 }

@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  background-color: var(--hero-bg);
+}
+
+.hero__text,
+.hero__image-wrapper {
+  flex: 1;
+}
+
+.hero__text {
+  padding: 100px;
+  align-items: center;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.1;
+  color: var(--primary-color);
+}
+
+.hero__title-top {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}
+
+.hero__description {
+  max-width: 510px;
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}

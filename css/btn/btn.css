@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
-  padding: 11px 22px;
-  border: none;
+  padding: 9px 20px;
+  border: 2px solid currentColor;
   border-radius: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
