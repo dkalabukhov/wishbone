@@ -34,7 +34,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1198px;
+  max-width: var(--container-width);
 }
 
 .list-reset {
@@ -49,4 +49,6 @@ body {
   --tertiary-color: #645c55;
   --white-color: #ffffff;
   --hero-bg: #ece7e4;
+
+  --container-width: 1198px;
 }
