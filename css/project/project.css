@@ -29,3 +29,8 @@
   line-height: 1.5;
   color: var(--tertiary-color);
 }
+
+.project_left .project__text {
+  left: 60px;
+  right: auto;
+}
