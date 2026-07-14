@@ -7,6 +7,7 @@
 @import url('./team-member/team-member.css');
 @import url('./project/project.css');
 @import url('./our-process/our-process.css');
+@import url('./clients/clients.css');
 
 *,
 *::before,
@@ -61,7 +62,9 @@ body {
   --secondary-color: #403e3b;
   --tertiary-color: #645c55;
   --white-color: #ffffff;
-  --hero-bg: #ece7e4;
+  --lightgray-color: #ece7e4;
+  --hero-bg: var(--lightgray-color);
+
   --team-member-image-border-color: #cec4bc;
 
   --container-width: 1198px;
