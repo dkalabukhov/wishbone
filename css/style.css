@@ -1,6 +1,7 @@
 @import url('./btn/btn.css');
 @import url('./header/header.css');
 @import url('./nav/nav.css');
+@import url('./main/main.css');
 @import url('./hero/hero.css');
 @import url('./our-firm/our-firm.css');
 @import url('./title/title.css');
@@ -8,6 +9,7 @@
 @import url('./project/project.css');
 @import url('./our-process/our-process.css');
 @import url('./clients/clients.css');
+@import url('./featured-projects/featured-projects.css');
 
 *,
 *::before,
@@ -57,6 +59,10 @@ body {
   padding: 100px 0;
 }
 
+.centered {
+  text-align: center;
+}
+
 :root {
   --primary-color: #1b1a1a;
   --secondary-color: #403e3b;
@@ -64,6 +70,7 @@ body {
   --white-color: #ffffff;
   --lightgray-color: #ece7e4;
   --hero-bg: var(--lightgray-color);
+  --featured-projects-bg: #f7f7f7;
 
   --team-member-image-border-color: #cec4bc;
 

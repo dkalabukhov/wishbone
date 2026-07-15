@@ -16,4 +16,5 @@
 .btn_dark {
   background-color: var(--primary-color);
   color: var(--white-color);
+  border-color: var(--primary-color);
 }
