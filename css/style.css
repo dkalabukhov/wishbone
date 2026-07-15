@@ -11,6 +11,7 @@
 @import url('./clients/clients.css');
 @import url('./featured-projects/featured-projects.css');
 @import url('./team/team.css');
+@import url('./get-in-touch/get-in-touch.css');
 
 *,
 *::before,
@@ -70,6 +71,8 @@ body {
   --tertiary-color: #645c55;
   --white-color: #ffffff;
   --lightgray-color: #ece7e4;
+  --grayish-orange-color: #cec4bc;
+
   --hero-bg: var(--lightgray-color);
   --featured-projects-bg: #f7f7f7;
 

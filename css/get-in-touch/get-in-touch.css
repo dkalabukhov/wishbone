@@ -1,0 +1,31 @@
+.get-in-touch {
+  background-color: var(--grayish-orange-color);
+}
+
+.get-in-touch__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.get-in-touch__text {
+  max-width: 570px;
+}
+
+.get-in-touch__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+}
+
+.get-in-touch__caption {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.05;
+  color: var(--primary-color);
+}
