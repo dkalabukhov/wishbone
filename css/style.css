@@ -12,6 +12,8 @@
 @import url('./featured-projects/featured-projects.css');
 @import url('./team/team.css');
 @import url('./get-in-touch/get-in-touch.css');
+@import url('./footer/footer.css');
+@import url('./social/social.css');
 
 *,
 *::before,
@@ -72,9 +74,12 @@ body {
   --white-color: #ffffff;
   --lightgray-color: #ece7e4;
   --grayish-orange-color: #cec4bc;
+  --lynx-white: #f7f7f7
 
   --hero-bg: var(--lightgray-color);
-  --featured-projects-bg: #f7f7f7;
+  --featured-projects-bg: var(--lynx-white);
+  --get-in-touch-bg: var(--grayish-orange-color);
+  --footer-bg: var(--lynx-white);
 
   --team-member-image-border-color: #cec4bc;
 
