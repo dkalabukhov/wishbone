@@ -31,3 +31,30 @@
 .nav__link:hover {
   background-size: 100% 2px;
 }
+
+.nav.nav_active {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+@media (max-width: 992px) {
+  .nav {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    height: 100svh;
+    width: 80vw;
+    z-index: 100;
+    background-color: var(--white-color);
+    padding: 40px;
+    overflow-y: auto;
+    transform: translateX(-100vw);
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
