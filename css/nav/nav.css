@@ -17,6 +17,17 @@
   transition: background-size 0.3s ease;
 }
 
+.nav__link:focus {
+  outline: none;
+}
+
+.nav__link:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 3px;
+  border-radius: 4px;
+  padding-bottom: 0;
+}
+
 .nav__link:hover {
   background-size: 100% 2px;
 }
