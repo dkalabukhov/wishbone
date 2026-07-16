@@ -42,3 +42,10 @@
   align-items: center;
   gap: 96px;
 }
+
+@media (max-width: 992px) {
+  .clients__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
