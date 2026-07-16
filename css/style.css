@@ -15,6 +15,26 @@
 @import url('./footer/footer.css');
 @import url('./social/social.css');
 
+:root {
+  --primary-color: #1b1a1a;
+  --secondary-color: #403e3b;
+  --tertiary-color: #645c55;
+  --white-color: #ffffff;
+  --lightgray-color: #ece7e4;
+  --grayish-orange-color: #cec4bc;
+  --lynx-white: #f7f7f7;
+
+  --hero-bg: var(--lightgray-color);
+  --featured-projects-bg: var(--lynx-white);
+  --get-in-touch-bg: var(--grayish-orange-color);
+  --footer-bg: var(--lynx-white);
+
+  --team-member-image-border-color: #cec4bc;
+
+  --container-width: 1198px;
+  --container-small-width: 798px;
+}
+
 *,
 *::before,
 *::after {
@@ -65,24 +85,4 @@ body {
 
 .centered {
   text-align: center;
-}
-
-:root {
-  --primary-color: #1b1a1a;
-  --secondary-color: #403e3b;
-  --tertiary-color: #645c55;
-  --white-color: #ffffff;
-  --lightgray-color: #ece7e4;
-  --grayish-orange-color: #cec4bc;
-  --lynx-white: #f7f7f7
-
-  --hero-bg: var(--lightgray-color);
-  --featured-projects-bg: var(--lynx-white);
-  --get-in-touch-bg: var(--grayish-orange-color);
-  --footer-bg: var(--lynx-white);
-
-  --team-member-image-border-color: #cec4bc;
-
-  --container-width: 1198px;
-  --container-small-width: 798px;
 }

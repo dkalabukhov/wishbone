@@ -36,3 +36,14 @@
 .team__item {
   width: calc((100% - 114px) / 2);
 }
+
+@media (max-width: 1200px) {
+  .team__list {
+    gap: 52px;
+    max-width: 566px;
+  }
+
+  .team__item {
+    width: calc((100% - 52px) / 2);
+  }
+}

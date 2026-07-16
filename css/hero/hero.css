@@ -44,3 +44,13 @@
   line-height: 1.5;
   color: var(--secondary-color);
 }
+
+@media (max-width: 1200px) {
+  .hero__text {
+    padding: 100px 50px;
+  }
+
+  .hero__title {
+    font-size: 52px;
+  }
+}
