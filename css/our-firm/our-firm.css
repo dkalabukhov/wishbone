@@ -27,3 +27,11 @@
 .our-firm__team-member {
   margin-top: 8px;
 }
+
+@media (max-width: 768px) {
+  .our-firm__inner {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0;
+  }
+}

@@ -23,11 +23,14 @@
   max-width: 580px;
 }
 
-.featured-projects__list.list-reset {
+.featured-projects__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 460px;
   gap: 18px;
+}
+
+.featured-projects__list.list-reset {
   margin-bottom: 42px;
 }
 
@@ -71,5 +74,20 @@
 @media (max-width: 992px) {
   .featured-projects__inner {
     padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-projects__title {
+    font-size: 28px;
+  }
+
+  .featured-projects__description {
+    font-size: 16px;
+  }
+
+  .featured-projects__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 400px);
   }
 }

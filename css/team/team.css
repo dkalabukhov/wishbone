@@ -54,3 +54,21 @@
     align-items: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  .team__title {
+    font-size: 28px;
+  }
+  
+  .team__content {
+    padding-right: 0;
+  }
+
+  .team__list {
+    gap: 24px;
+  }
+
+  .team__item {
+    width: 100%;
+  }
+}

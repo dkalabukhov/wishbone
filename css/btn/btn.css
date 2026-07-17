@@ -43,3 +43,10 @@
   background-color: transparent;
   border-color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}

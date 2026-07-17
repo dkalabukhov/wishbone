@@ -12,3 +12,24 @@
 .header__logo {
   margin-right: auto;
 }
+
+@media (max-width: 768px) {
+  .header__inner {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .header__logo {
+    order: 1;
+  }
+
+  .header__btn {
+    order: 3;
+    justify-self: start;
+  }
+
+  .header__burger {
+    order: 2;
+    justify-self: end;
+  }
+}

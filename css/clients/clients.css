@@ -49,3 +49,14 @@
     align-items: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  .clients__content {
+    gap: 50px;
+    padding: 0;
+  }
+
+  .clients__logos {
+    gap: 52px;
+  }
+}

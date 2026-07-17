@@ -60,3 +60,17 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  .hero__text {
+    padding: 40px 15px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__description {
+    font-size: 14px;
+  }
+}

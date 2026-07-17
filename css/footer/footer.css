@@ -24,3 +24,15 @@
 .footer__description-paragraph {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 24px 0;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

@@ -36,3 +36,9 @@
     align-items: flex-start;
   }
 }
+
+@media (max-width: 768px) {
+  .get-in-touch__caption {
+    font-size: 28px;
+  }
+}

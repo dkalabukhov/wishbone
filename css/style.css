@@ -99,3 +99,9 @@ body {
 .fix-scroll {
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .paddingY-100 {
+    padding: 40px 0;
+  }
+}
