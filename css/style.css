@@ -36,6 +36,10 @@
   --container-small-width: 798px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 *,
 *::before,
 *::after {
